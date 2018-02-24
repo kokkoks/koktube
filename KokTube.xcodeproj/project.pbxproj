@@ -14,6 +14,8 @@
 		12213C3020410A2100720286 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12213C2E20410A2100720286 /* LaunchScreen.storyboard */; };
 		12213C3B20410A2100720286 /* KokTubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12213C3A20410A2100720286 /* KokTubeTests.swift */; };
 		12213C4620410A2100720286 /* KokTubeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12213C4520410A2100720286 /* KokTubeUITests.swift */; };
+		12213C552041618800720286 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12213C542041618800720286 /* Extension.swift */; };
+		12213C58204161D800720286 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12213C57204161D800720286 /* VideoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		12213C4120410A2100720286 /* KokTubeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KokTubeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12213C4520410A2100720286 /* KokTubeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KokTubeUITests.swift; sourceTree = "<group>"; };
 		12213C4720410A2100720286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12213C542041618800720286 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		12213C57204161D800720286 /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		12213C2420410A2100720286 /* KokTube */ = {
 			isa = PBXGroup;
 			children = (
+				12213C59204161FA00720286 /* Controller */,
+				12213C56204161BF00720286 /* View */,
+				12213C532041617300720286 /* Helpers */,
 				12213C2520410A2100720286 /* AppDelegate.swift */,
-				12213C2720410A2100720286 /* HomeController.swift */,
 				12213C2920410A2100720286 /* Main.storyboard */,
 				12213C2C20410A2100720286 /* Assets.xcassets */,
 				12213C2E20410A2100720286 /* LaunchScreen.storyboard */,
@@ -123,6 +129,30 @@
 				12213C4720410A2100720286 /* Info.plist */,
 			);
 			path = KokTubeUITests;
+			sourceTree = "<group>";
+		};
+		12213C532041617300720286 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				12213C542041618800720286 /* Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		12213C56204161BF00720286 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				12213C57204161D800720286 /* VideoCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		12213C59204161FA00720286 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				12213C2720410A2100720286 /* HomeController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +289,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12213C552041618800720286 /* Extension.swift in Sources */,
+				12213C58204161D800720286 /* VideoCell.swift in Sources */,
 				12213C2820410A2100720286 /* HomeController.swift in Sources */,
 				12213C2620410A2100720286 /* AppDelegate.swift in Sources */,
 			);
