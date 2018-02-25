@@ -16,6 +16,7 @@
 		12213C4620410A2100720286 /* KokTubeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12213C4520410A2100720286 /* KokTubeUITests.swift */; };
 		12213C552041618800720286 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12213C542041618800720286 /* Extension.swift */; };
 		12213C58204161D800720286 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12213C57204161D800720286 /* VideoCell.swift */; };
+		12213C5B2041CC0B00720286 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12213C5A2041CC0B00720286 /* MenuBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		12213C4720410A2100720286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12213C542041618800720286 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		12213C57204161D800720286 /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		12213C5A2041CC0B00720286 /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +103,8 @@
 		12213C2420410A2100720286 /* KokTube */ = {
 			isa = PBXGroup;
 			children = (
-				12213C59204161FA00720286 /* Controller */,
 				12213C56204161BF00720286 /* View */,
+				12213C59204161FA00720286 /* Controller */,
 				12213C532041617300720286 /* Helpers */,
 				12213C2520410A2100720286 /* AppDelegate.swift */,
 				12213C2920410A2100720286 /* Main.storyboard */,
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				12213C57204161D800720286 /* VideoCell.swift */,
+				12213C5A2041CC0B00720286 /* MenuBar.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 				12213C58204161D800720286 /* VideoCell.swift in Sources */,
 				12213C2820410A2100720286 /* HomeController.swift in Sources */,
 				12213C2620410A2100720286 /* AppDelegate.swift in Sources */,
+				12213C5B2041CC0B00720286 /* MenuBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
